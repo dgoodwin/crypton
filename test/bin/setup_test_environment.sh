@@ -48,7 +48,7 @@ echo "select * from pg_tables" \
   }
 
 # add crypton-dev.local to /etc/hosts
-grep -q crypton-dev.local /etc/hosts || {
-  echo "Adding crypton-dev.local to /etc/hosts..."
-  sudo bash -c 'echo -e "127.0.0.1\tcrypton-dev.local\n" >> /etc/hosts'
-}
+#grep -q crypton-dev.local /etc/hosts || {
+#  echo "Adding crypton-dev.local to /etc/hosts..."
+#  sudo bash -c 'echo -e "127.0.0.1\tcrypton-dev.local\n" >> /etc/hosts'
+#}
